@@ -1,0 +1,93 @@
+html,body,ul,ol,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding:0px;
+}
+section{
+    background-color: rgb(199, 199, 199);
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    height: calc(100vh - 50px);
+    padding: 50px 0px;
+}
+img{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    object-fit: contain;
+    object-position: center top;
+    max-width: 100%;
+    width: 585px;
+}
+.container{
+    max-width: 1200px;
+    margin:0px auto;
+    position: relative;
+}
+.head-1,.head-2{
+    display: flex;
+    justify-content: space-between;
+}
+.head-1 h1{
+    flex: 1;
+    -webkit-flex: 0 0 1;
+}
+.head-1,.head-2{
+    align-items: center;
+    color: white;
+}
+.head-1 span{
+    color: red;
+}
+.address{
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.address:last-child{
+    padding-right: 0px;
+}
+.map::before{
+    content: "\f041";
+    font-family:FontAwesome;
+    font-size: 30px;
+    color: yellow;
+}
+.clock::before{
+    content: "\f017";
+    font-family:FontAwesome;
+    color: red;
+    font-size: 32px;
+}
+.head-2{
+    padding:15px;
+    background-color: white;
+    border-radius:40px;
+}
+.icon-sec i{
+    padding:0px 20px;
+    cursor: pointer;
+}
+.face{
+    color:blue;
+}
+.twitt{
+    color:rgb(1, 238, 255);
+}
+.linked{
+    color:blueviolet;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right:30px;
+}
+a:hover{
+    border-bottom: 2px solid red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
